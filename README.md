@@ -4,13 +4,14 @@ Please merge your changes into master each time you have completed one of the fo
 What is FizzBuzz?
 FizzBuzz is a coding challenge. Its instructions are:
 
-Write a program that prints the numbers from 1 to 100
-For numbers divisible by 3, print “Fizz”
-For numbers divisible by 5, print “Buzz”
-For numbers divisible by both 3 and 5, print “FizzBuzz”
+<ul>
+  <li> Write a program that prints the numbers from 1 to 100 </li>
+  <li> For numbers divisible by 3, print “Fizz” </li>
+  <li> For numbers divisible by 5, print “Buzz” </li>
+  <li> For numbers divisible by both 3 and 5, print “FizzBuzz” </li>
+ </ul>
 
-To install dependencies before starting:
-`bundle install`
+To install dependencies before starting: install`
 
 To run the test:
 `bundle exec rspec`
