@@ -11,7 +11,12 @@ FizzBuzz is a coding challenge. Its instructions are:
   <li> For numbers divisible by both 3 and 5, print “FizzBuzz” </li>
  </ul>
 
-To install dependencies before starting: install`
+To install dependencies before starting: `bundle install`
 
-To run the test:
-`bundle exec rspec`
+To run the test: `bundle exec rspec`
+
+<ul>
+If you aced this, think about the following:
+<li> What do you do when a number is bigger than 100? </li>
+<li> What do you do if someone adds a string instead of a number? </li>
+</ul>
