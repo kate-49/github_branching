@@ -1,7 +1,10 @@
-Solve the Fizzbuzz puzzle working together.
-Please merge your changes into master each time you have completed one of the following stages (ideally more often). 
+<h1> Fizzbuzz </h1>
+<h2> Solve the Fizzbuzz puzzle working together. </h2>
+Please merge your changes into master <b> each time </b> you have completed one of the following stages (ideally more often). 
 
-What is FizzBuzz?
+Hints on branching are in the `BranchingInstructions.md` file
+
+<h3> What is FizzBuzz? </h3>
 FizzBuzz is a coding challenge. Its instructions are:
 
 <ul>
@@ -11,9 +14,10 @@ FizzBuzz is a coding challenge. Its instructions are:
   <li> For numbers divisible by both 3 and 5, print “FizzBuzz” </li>
  </ul>
 
-To install dependencies before starting: `bundle install`
-
-To run the test: `bundle exec rspec`
+<h4> 
+  To install dependencies before starting: `bundle install`
+  To run the test: `bundle exec rspec`
+ </h4>
 
 <ul>
 If you aced this, think about the following:
