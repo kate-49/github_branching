@@ -16,6 +16,7 @@ FizzBuzz is a coding challenge. Its instructions are:
 
 <h4> 
   To install dependencies before starting: `bundle install`
+  <br>
   To run the test: `bundle exec rspec`
  </h4>
 
