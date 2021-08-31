@@ -1,9 +1,15 @@
 class Fizzbuzz
   def run(input)
-    if input % 3 == 0
+    if input % 3 == 0 && input % 5 == 0
+     return "FizzBuzz"
+
+    elsif
+      input % 3 == 0
       return "Fizz"
+
     elsif input % 5 == 0
-      return "Fizzbuzz"
+      return "Buzz"
+
     else
     return input
   end

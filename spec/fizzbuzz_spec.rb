@@ -8,15 +8,20 @@ describe 'Fizzbuzz' do
     expect(test.run(3)).to eq 'Fizz'
   end
 
-  #add new tests for each criteria in the README below here
-  #it 'will return 50 when given 50' do
-    #test = Fizzbuzz.new
-    #expect(test.run(50)).to eq 50
-  #end
 
-  it 'will return Fizzbuzz when given 5' do
+  it 'will return 2 when given 2' do
     test = Fizzbuzz.new
-    expect(test.run(5)).to eq 'Fizzbuzz'
+    expect(test.run(2)).to eq 2
+  end
+
+  it 'will return Buzz when given 5' do
+    test = Fizzbuzz.new
+    expect(test.run(5)).to eq 'Buzz'
+  end
+
+  it 'will return FizzBuzz when given 3 and 5' do
+    test = Fizzbuzz.new
+    expect(test.run(15)).to eq 'FizzBuzz'
   end
 
 end
