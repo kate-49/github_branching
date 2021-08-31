@@ -1,6 +1,5 @@
 class Fizzbuzz
   def run(input)
-    #add your code in here
-    'hello testing'
+    return input
   end
 end
