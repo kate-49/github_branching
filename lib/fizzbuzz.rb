@@ -3,7 +3,9 @@ class Fizzbuzz
 
     while true
 
-    if input < 0 || input > 100
+    if input.class == String
+      return "Please enter a number"
+    elsif input < 0 || input > 100
       return "error"
     break
 
