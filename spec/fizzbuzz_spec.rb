@@ -24,4 +24,14 @@ describe 'Fizzbuzz' do
     expect(test.run(15)).to eq 'FizzBuzz'
   end
 
+  it 'will return an error message when given 101' do
+    test = Fizzbuzz.new
+    expect(test.run(101)).to eq 'error'
+  end
+
+  it 'will return an error message when given a string' do
+    test = Fizzbuzz.new
+    expect(test.run("test")).to eq 'Please enter a number'
+  end
+
 end
